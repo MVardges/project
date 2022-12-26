@@ -39,6 +39,9 @@ song_title = tkr.Label(music_player, font="Helvetica 14 bold", textvariable=var)
 song_title.pack()
 Button1.pack(fill="x")
 Button2.pack(fill="x")
+
+
+
 Button3.pack(fill="x")
 Button4.pack(fill="x")
 
