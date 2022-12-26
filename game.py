@@ -28,13 +28,13 @@ def pause():
     pygame.mixer.music.pause()
 def unpause():
     pygame.mixer.music.unpause()
-Button1 = tkr.Button(music_player, width=5, height=3, font="Helvetica 18 bold", text="PLAY", command=play, bg="red", fg="black")
+Button1 = tkr.Button(music_player, width=5, height=3, font="Helvetica 18 bold", text="PLAY", command=play, bg="red", fg="black") #color
 Button2 = tkr.Button(music_player, width=5, height=3, font="Helvetica 18 bold", text="STOP", command=stop, bg="blue", fg="black")
 Button3 = tkr.Button(music_player, width=5, height=3, font="Helvetica 18 bold", text="PAUSE", command=pause, bg="orange", fg="black")
 Button4 = tkr.Button(music_player, width=5, height=3, font="Helvetica 18 bold", text="UNPAUSE", command=unpause, bg="white", fg="black")
 
 var = tkr.StringVar() 
-song_title = tkr.Label(music_player, font="Helvetica 12 bold", textvariable=var)
+song_title = tkr.Label(music_player, font="Helvetica 14 bold", textvariable=var)
 
 song_title.pack()
 Button1.pack(fill="x")
